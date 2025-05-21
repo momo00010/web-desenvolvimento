@@ -1,0 +1,641 @@
+/* Página index - Estilos gerais */
+body {
+    background-image: url("acai fodao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: "Playwrite RO", cursive;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin-top: 10px; /* diminuído */
+  }
+  
+  /* Subtítulo */
+  h2 {
+    text-align: center;
+    font-size: 160px; /* tamanho reduzido */
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aquamarine;
+    margin-bottom: 50px; /* diminuído */
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* fundo semitransparente */
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    backdrop-filter: blur(10px);
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-family: "Playwrite RO", cursive;
+    font-size: 20px;
+    color: rgb(145, 85, 241);
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: rgb(218, 255, 203);
+    color: black;
+  }
+  .titulo-secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .titulo-secundario h2 {
+    font-size: 160px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 420;
+    color: aquamarine;
+    margin: 0;
+  }
+  
+  .titulo-secundario img {
+    width: 200px; /* ajuste conforme necessário */
+    height: 200px;
+  }
+  .titulo-secundario img {
+    
+     height: auto;
+    position: relative;
+    top: -20px; /* sobe 20px */
+  }
+  
+  .logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    width: 60px; /* ajuste conforme necessário */
+    height: auto;
+    cursor: pointer;
+  }
+  
+  
+  /* Espaçamento para a seção de título */
+  
+  body.login-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body.login-page .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+body.login-page h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+body.login-page input[type="text"], body.login-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+body.login-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body.login-page button:hover {
+    background-color: #45a049;
+}
+
+body.login-page .forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+body.login-page .forgot-password:hover {
+    text-decoration: underline;
+}
+.mal{ font-size: 30px;}
+
+/* aqui separa o cadastre
+/* Resetando margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais do body */
+body.cadastro-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos da div de cadastro */
+.cadastro-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+/* Estilo do título */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilos dos campos de entrada */
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos do botão */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos do link de login */
+.login-link {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.login-link a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.MAL2{
+font-size: 30PX;
+}
+
+/* Resetando margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais do body */
+body.contato-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos da div de contato */
+.contato-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+/* Estilo do título */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilos dos campos de entrada */
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos do botão */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos das informações de contato */
+.contato-inf {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.contato-inf p {
+  margin: 5px 0;
+}
+
+.mal3{font-size: 30px;}
+
+/* sepaaaaa
+/* Estilos da seção "Mais Pedidos" */
+.most-ordered {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.most-ordered h2 {
+  font-size: 2em;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.most-ordered .product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.most-ordered .product-card:hover {
+  transform: scale(1.05);
+}
+
+.most-ordered .product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.most-ordered .product-card h3 {
+  margin: 10px 0;
+  color: #462c2c;
+}
+
+.most-ordered .product-card .price {
+  font-size: 1.2em;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.most-ordered .product-card .description {
+  font-size: 0.9em;
+  color: #c00505;
+}
+/* cosinha
+/* Resetando margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais do body */
+body.contato-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  
+
+}
+
+/* Estilos do cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #4CAF50;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #30b924;
+}
+
+/* Estilos do mapa */
+.map-container {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.map-container iframe {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* Estilos do rodapé */
+footer {
+  text-align: center;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Proporção 16:9 */
+  height: 0;
+  max-width: 100%;
+  background: transparent;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.oloco{
+  color: #19b40a;
+  font-size: 60px;
+  
+}
+
+body.login-page button {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+body.login-page button:hover {
+  background-color: #eee;
+}
+
+body.login-page .forgot-password,
+.cadastro-page .login-link a {
+  color: black;
+}
+
+body.login-page .forgot-password:hover,
+.cadastro-page .login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Cor preta para textos em todas as páginas */
+body.login-page,
+body.cadastro-page,
+body.contato-page {
+  color: black;
+}
+
+/* Títulos */
+body.login-page h2,
+body.cadastro-page h2,
+body.contato-page h2 {
+  color: black;
+}
+
+/* Campos de entrada */
+body.login-page input,
+body.cadastro-page input,
+body.contato-page input,
+body.contato-page textarea {
+  color: black;
+  background-color: white;
+}
+
+/* Botões (inclui o botão "Cadastre-se") */
+body.login-page button,
+body.cadastro-page button,
+body.contato-page button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+body.login-page button:hover,
+body.cadastro-page button:hover,
+body.contato-page button:hover {
+  background-color: #ddd;
+}
+
+/* Links (como "Esqueceu a senha?" e "Já tem uma conta?") */
+body.login-page .forgot-password,
+.cadastro-page .login-link a {
+  color: black;
+}
+
+body.login-page .forgot-password:hover,
+.cadastro-page .login-link a:hover {
+  text-decoration: underline;
+}
+.contato-inf,
+.contato-inf p,
+ strong {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+.login-link {
+  color: rgb(16, 27, 173); /* muda o texto "Já tem uma conta?" */
+}
+
+
+/* Botões (login, cadastro, contato) */
+body.login-page button,
+body.cadastro-page button,
+body.contato-page button {
+  background-color: #6A0DAD; /* roxo escuro */
+  color: white;
+  border: none;
+}
+
+body.login-page button:hover,
+body.cadastro-page button:hover,
+body.contato-page button:hover {
+  background-color: #8A2BE2; /* roxo médio */
+}
+
+/* Links (como "Esqueceu a senha?" e "Já tem uma conta?") */
+body.login-page .forgot-password,
+.cadastro-page .login-link a {
+  color: #A678F2; /* roxo claro */
+}
+
+body.login-page .forgot-password:hover,
+.cadastro-page .login-link a:hover {
+  text-decoration: underline;
+  color: #C084F0;
+}
+
+/* Títulos */
+body.login-page h2,
+body.cadastro-page h2,
+body.contato-page h2 {
+  color: #6A0DAD;
+}
+
+/* Informações de contato */
+.contato-info,
+.contato-info p,
+.contato-info strong {
+  color: #9603ff; /* índigo escuro */
+}
+
+/* Cabeçalhos */
+header h1 {
+  color: #6A0DAD;
+}
+
+header p {
+  color: #8A2BE2;
+}
+
+/* Cor padrão de texto nas páginas */
+body.login-page,
+body.cadastro-page,
+body.contato-page {
+  color: #4B0082;
+}
+
+/* Campos de entrada */
+body.login-page input,
+body.cadastro-page input,
+body.contato-page input,
+body.contato-page textarea {
+  color: #4B0082;
+  background-color: #fdf9ff;
+  border: 1px solid #6A0DAD;
+}
+
+/* Estilos do cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #22c5e2; /* Verde-limão claro */
+  text-decoration: underline;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(209, 247, 72, 0.6); /* sombra suave na mesma cor */
+}
+
+header p {
+  font-size: 1.5em;
+  color: #28d6f5; /* Verde-limão claro */
+  text-decoration: underline;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(209, 247, 72, 0.5);
+}
+
+/* Estilos das informações de contato */
+.contato-info,
+.contato-info p,
+.contato-info strong {
+  color: #d1f748; /* Verde-limão claro */
+  background-color: #000000;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  box-shadow: 0 0 10px #d1f748;
+}
+
+
+.contato-info .endereco-titulo,
+.contato-info .endereco-texto {
+  color: #d1f748; /* Verde-limão claro */
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  text-shadow: 1px 1px 4px rgba(209, 247, 72, 0.6);
+}
+
+.footer {
+  text-align: center;
+  padding: 12px 0;
+  background-color: #7a0bca; /* roxo escuro */
+  color: rgb(228, 47, 47);
+  font-size: 18px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
